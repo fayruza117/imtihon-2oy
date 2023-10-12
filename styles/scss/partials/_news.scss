@@ -1,0 +1,32 @@
+.second{
+    .containerr{
+        width: 1200px;
+        margin: 0 auto;
+        // display: flex;
+        .dogs{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        .news{
+            display: flex;
+            justify-content: space-between;
+
+            h3{
+                color: $blue;
+            }
+        }
+      
+        .view-more{
+            border: 2px solid $blue;
+            border-radius: 30px;
+            padding: 10px;
+        }
+    }
+    .gene{
+        color: $normal-40;
+    }
+    .male{
+        color: $normal-60;
+    }
+
+}

@@ -1,0 +1,31 @@
+.container6{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sixth{
+    background-color: $dark-yellow;
+    position: relative;
+    width: 1180px;
+    height: 378px;
+    z-index: 1;
+}
+
+.left-hand{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.right-hand{
+    position: absolute;
+    left: 30rem;
+   bottom: 0;
+}
+
+.hand{
+    position: absolute;
+    left: 30rem;
+    top: 0;
+}

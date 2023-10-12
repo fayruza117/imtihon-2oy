@@ -1,0 +1,32 @@
+.seven{
+    width: 1200px;
+    margin: 0 auto;
+     .rasm1{
+        border-radius: 15px;
+     }
+    .checked{
+        gap: 2px;
+        background-color: $normal-00;
+        display: flex;
+        padding: 15px  30px;
+        border-radius: 30px;
+        border: 2px solid $blue;
+        margin-top: -10px;
+    }
+
+    .puppies{
+    display: flex;
+    gap: 2rem;
+
+   
+}
+
+    .pet-btn{
+        background-color: $sky-blue;
+        color: $normal-10;
+        width: 150px;
+        border-radius: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+}
